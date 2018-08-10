@@ -131,7 +131,7 @@ div > div {
 
 
 .first_div {
-    width:30%;
+    width:20%;
     line-height:40px;
 }
 .side-menu {
@@ -143,7 +143,7 @@ div > div {
 .side-menu a {
     background-color: rgb(237,245,255);
     opacity: .9;
-    color:white;
+    color:black;
     display:block;
     padding:12px;
     text-decoration:none;
@@ -157,7 +157,7 @@ div > div {
     color: rgb(237,245,255)
 }
 .second_div {
-    width: 70%;
+    width: 65%;
 
     height:calc(100vh - 100px);
     vertical-align:middle;
@@ -223,7 +223,91 @@ div > div {
 }
 
 
+.third+_div {
+    width: 15%;
+ }
 
+ /*== home container==*/
+
+
+
+ .home_container {
+    width:100%;
+    height:100%;
+    display: table;
+    background:rgb (255,.255,255);
+    background-size: cover;
+    padding:0px;
+}
+
+
+ /*==== div for home page === */
+
+
+.home_first_div {
+    width:20%;
+    line-height:40px;
+}
+.home_side-menu {
+    width:250px;
+    padding:0px;
+    padding-left:4px;
+ }
+
+.home_side-menu a {
+    background-color: rgb(237,245,255);
+    opacity: .9;
+    color:black;
+    display:block;
+    padding:12px;
+    text-decoration:none;
+}
+.home_side-menu a:hover {
+    background-color:rgb(0,128,0);
+}
+
+.home_side-menu a.active {
+    background-color: rgb(3,3,3);
+    color: rgb(237,245,255)
+}
+.home_second_div {
+    width: 65%;
+
+    height:calc(100vh - 100px);
+    vertical-align:middle;
+
+ }
+
+.home_second_div h1 {
+    font-size: 75px;
+    font-weight: 1000;
+    line-height: 50px;
+    color: rgb(240, 248, 255);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(2,3,3);
+}
+.home_second_div h2 {
+    font-family:'Anton', sans-serif;
+    font-family:'Righteous', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color:rgb(240, 248, 255);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(2, 2, 2);
+}
+.home_second_div h3 {
+    font-family:'Anton', sans-serif;
+    font-family:'Righteous', cursive;
+    font-size: 45px;
+    font-weight: 100;
+    font-style: bold;
+    line-height: 20px;
+    color:rgb(240, 248, 255);
+    text-align:left;
+
+}
 
 
 /*== CSS for sign up page==*/
